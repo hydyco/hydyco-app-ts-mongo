@@ -1,0 +1,26 @@
+{
+  "name": "hydyco-app-ts-mongo",
+  "version": "0.0.15",
+  "description": "template for hydyco in typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon --watch './**/*.ts' --exec 'ts-node' index.ts"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@hydyco/admin-plugin": "^0.0.12",
+    "@hydyco/auth": "^0.0.14",
+    "@hydyco/core": "^0.0.15",
+    "@hydyco/docs-plugin": "^0.0.14",
+    "@hydyco/file-plugin": "^0.0.14",
+    "@hydyco/mongoose-plugin": "^0.0.14",
+    "@hydyco/rest-plugin": "^0.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.4.2"
+  }
+}
