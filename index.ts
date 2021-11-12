@@ -1,5 +1,3 @@
-import { HydycoServer } from "@hydyco/core";
-import { getConfig, middleware } from "@hydyco/core/ioc";
-HydycoServer.start();
+import { Hydyco } from "@hydyco/core";
 
-console.log(middleware("authMiddleware"));
+Hydyco.boot();

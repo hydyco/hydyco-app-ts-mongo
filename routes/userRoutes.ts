@@ -1,4 +1,4 @@
-import { RestApi } from "@hydyco/rest-plugin";
+import { RestApi } from "@hydyco/rest";
 
 class UserRoutes extends RestApi {
   before(request, response, next) {
