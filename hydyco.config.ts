@@ -55,7 +55,9 @@ export const config: any = {
     },
     routes: {
       baseUrl: "/api/v1",
-      overrides: {},
+      overrides: {
+        user: UserRoutes,
+      },
       customRoutes: [],
     },
   },
